@@ -77,7 +77,7 @@ function SignUp() {
         <p className='text-xs text-slate-700 mt-1.25 mb-6'>Join us today by entering your details below</p>
 
         <form onSubmit={handleSignUp}>
-          <ProfilePhotoSelector image={profilePic} setImage={setProfilePic} />
+          {/* <ProfilePhotoSelector image={profilePic} setImage={setProfilePic} /> */}
 
           <div className='flex flex-col gap-4 md:grid md:grid-cols-2 md:gap-4'>
             <Input 
